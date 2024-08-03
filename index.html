@@ -208,16 +208,16 @@
 
         // Function to add a marker at a specific point on the map
         const instructions = [
-            { title: "Current Time", info: " " },
+            { title: "Current Time", info: "7:58 AM" },
             { title: "Address of origin", info: "2201 David Grundfest Jr. Dr, Little Rock, AR 72206" },
             { title: "Address of destination", info: "7812 T St, Little Rock, AR 72227" },
             { title: "Distance of Destination", info: "0" },
             { title: "Estimated Time to Destination", info: "0" },
-            { title: "State of Charge of Battery", info: "0 Charge" },
-            { title: "Range of Current Battery", info: "0 Minutes" },
-            { title: "Estimated Drive-distance with Current Charge", info: "0 Miles" },
+            { title: "State of Charge of Battery", info: "11% Charge" },
+            { title: "Range of Current Battery", info: "33 Minutes" },
+            { title: "Estimated Drive-distance with Current Charge", info: "25 Miles" },
             { title: "Type of Chargin Socket", info: "J1772" },
-            { title: "kW Needed to Fully Charge Your Car", info: "0 kW" }
+            { title: "kW Needed to Fully Charge Your Car", info: "53.4 kW" }
         ];
 
 
@@ -242,13 +242,13 @@
                         { type: 'J1772', value: '4' }
                     ],    
                 chargeTime: [
-                        { type: 'J1772', value: '' }
+                        { type: 'J1772', value: '494' }
                     ],
                 socketAvalability: [
                         { type: 'J1772', value: '4 available' }
                     ],
 
-                energySource: 'Energy Breakdown: 0% Grid, 0% Renewable',
+                energySource: 'Energy Breakdown: 85% Grid, 15% Renewable',
 
                 chargingFee: '$0.00',
                 chargingFeeRate: 'per kWh',
@@ -259,7 +259,7 @@
                 grocery: 'Yes <br><br> There is a grocery store in walking distance... 0.5 mile',
                 sportsClothes: 'Yes <br><br> There is a sports or clothing store in walking distance... 0.2 miles',
                 
-                rating: '★ ★ ★ ✰ ✰',
+                rating: '',
                 ratingNum: ''
             },
             {
@@ -281,13 +281,13 @@
                         { type: 'J1772', value: '2' }
                     ],    
                 chargeTime: [
-                        { type: 'J1772', value: '' }
+                        { type: 'J1772', value: '188' }
                     ],
                 socketAvalability: [
                         { type: 'J1772', value: '2 available' }
                     ],        
 
-                energySource: 'Energy Breakdown: 0% Grid, 0% Renewable',
+                energySource: 'Energy Breakdown: 90% Grid, 10% Renewable',
 
                 chargingFee: '$0.49',
                 chargingFeeRate: 'per kWh',
@@ -299,7 +299,7 @@
                 grocery: 'Yes  <br><br> There is a grocery store in walking distance... 0.6 miles',
                 sportsClothes: 'No <br><br> There is no sports or clothing store in walking distance',
                 
-                rating: '★ ★ ★ ✰ ✰',  
+                rating: '',  
                 ratingNum: '0'
             }
         ];
@@ -881,7 +881,7 @@
                         },
                         geometry: {
                             type: 'Point',
-                            coordinates: [-92.22521994348212, 34.7301283985838]
+                            coordinates: [-92.36212160668907, 34.77298803646693]
                         }
                     }
                 ]
@@ -900,7 +900,7 @@
                         },
                         geometry: {
                             type: 'Point',
-                            coordinates: [-92.36212160668907, 34.77298803646693]
+                            coordinates: [-92.22521994348212, 34.7301283985838]
                         }
                     }
                 ]
